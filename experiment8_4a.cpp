@@ -9,7 +9,7 @@ using namespace std;
 
 int main(){
     ofstream outfile;
-    outfile.open("../aaa",ios::out);
+    outfile.open("../aaa.dat",ios::out);
     string s;
     while (cin>>s)
     {
