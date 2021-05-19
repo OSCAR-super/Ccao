@@ -14,7 +14,7 @@ bool palindrome(string array)
 }
 int main()
 {
-    cout << "input your string" << endl;
+    cout << "input your string:" << endl;
     string input;
     getline(cin,input);
     if (palindrome(input))
